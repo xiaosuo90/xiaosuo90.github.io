@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1,
+h2, h3, h4, h5, h6, pre, form, fieldset,
+input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', Arial,"Hiragino Sans GB";
+    background-image: url("http://nodeassets.nbcnews.com/images/placeholder-studio.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+ul ol{
+    list-style: none;
+}
+a,a:hover,a:visited,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.banner{
+    height: 240px;
+    width: 100%;
+    /*background-image: linear-gradient(120deg, #155799, #159957);*/
+    background-image: url("http://www.golaravel.com/assets/img/quotes.jpg");
+}
+.content{
+    height: 240px;
+    position: relative;
+}
+.content>h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.content>h1>a{
+    color: #ffffff;
+}
+.head{
+    background: #303030;
+    width: 100%;
+}
+.widget .list-event a:hover,.content>h1>a:hover{
+    text-decoration: underline;
+}
+.head-menu>li{
+    display: inline-block;
+    position: relative;
+}
+.head-menu>li>a{
+    font-size: 22px;
+    line-height: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+.head-menu>li>a:hover{
+    color: #ffffff;
+}
+.head-menu li ul{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    z-index: 100;
+}
+.head-menu li ul li{
+    background: #337ab7;
+    width: 130px;
+    border-top: 1px dashed #e67e22;
+}
+.head-menu li ul a{
+    line-height: 35px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.head-menu li ul a:hover{
+    color: #e67e22;
+    background: #286090;
+    text-decoration: none;
+}
+.mid-main{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.main-left,.main-right{
+    padding: 20px;
+}
+.post,.widget{
+    margin-bottom: 45px;
+}
+.panel-info>.panel-heading{
+    background: #5bc0de;
+    color: #fff;
+    border-color: #337ab7;
+}
+.panel-heading>h3>a:hover,.widget .list-event a:hover{
+    color: #e67e22;
+    cursor: pointer;
+}
+.panel>.panel-body{
+    padding: 10px 10px 10px 15px;
+}
+.panel-body>p{
+    padding: 10px 5px 0 15px;
+    line-height: 23px;
+}
+.share-btn{
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #a6e1ec;
+}
+.share-word>a{
+    display: block;
+    color: #ffffff;
+    padding: 5px 15px;
+    background: #5cb85c;
+    border: 1px solid #a6e1ec;
+    border-radius: 15px;
+}
+.share-word>a:hover{
+    background: #3c763d;
+}
+.list-event{
+    list-style: none;
+}
+.widget .list-event a{
+    color: #3c763d;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 30px;
+}
